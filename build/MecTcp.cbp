@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="MecTcp" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\muduo\;CMake Files\src\muduo\base\;CMake Files\src\muduo\net\;CMake Files\src\tcpServer\;CMake Files\src\tcpClient\;CMake Files\src\send\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/slc/work/MecTcp/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/home/slc/work/MecTcp/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/home/slc/work/MecTcp/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/home/slc/work/MecTcp/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/home/slc/work/MecTcp/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/slc/work/MecTcp/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/slc/work/MecTcp/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="muduo_base">
+         <Option output="/home/slc/work/MecTcp/build/src/muduo/base/libmuduo_base.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/slc/work/MecTcp/build/src/muduo/base" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/slc/work/MecTcp" />
+            <Add directory="/home/slc/work/MecTcp/include" />
+            <Add directory="/home/slc/work/MecTcp/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/muduo/base/Makefile&quot;  VERBOSE=1 muduo_base" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/muduo/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/muduo/base/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/muduo/base/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="muduo_base/fast">
+         <Option output="/home/slc/work/MecTcp/build/src/muduo/base/libmuduo_base.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/slc/work/MecTcp/build/src/muduo/base" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/slc/work/MecTcp" />
+            <Add directory="/home/slc/work/MecTcp/include" />
+            <Add directory="/home/slc/work/MecTcp/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/muduo/base/Makefile&quot;  VERBOSE=1 muduo_base/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/muduo/base/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/muduo/base/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/muduo/base/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="muduo_net">
+         <Option output="/home/slc/work/MecTcp/build/src/muduo/net/libmuduo_net.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/slc/work/MecTcp/build/src/muduo/net" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/slc/work/MecTcp" />
+            <Add directory="/home/slc/work/MecTcp/include" />
+            <Add directory="/home/slc/work/MecTcp/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/muduo/net/Makefile&quot;  VERBOSE=1 muduo_net" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/muduo/net/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/muduo/net/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/muduo/net/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="muduo_net/fast">
+         <Option output="/home/slc/work/MecTcp/build/src/muduo/net/libmuduo_net.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/slc/work/MecTcp/build/src/muduo/net" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/slc/work/MecTcp" />
+            <Add directory="/home/slc/work/MecTcp/include" />
+            <Add directory="/home/slc/work/MecTcp/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/muduo/net/Makefile&quot;  VERBOSE=1 muduo_net/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/muduo/net/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/muduo/net/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/muduo/net/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tcpServer">
+         <Option output="/home/slc/work/MecTcp/bin/tcpServer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/slc/work/MecTcp/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/slc/work/MecTcp" />
+            <Add directory="/home/slc/work/MecTcp/include" />
+            <Add directory="/home/slc/work/MecTcp/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/tcpServer/Makefile&quot;  VERBOSE=1 tcpServer" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/tcpServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/tcpServer/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/tcpServer/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tcpServer/fast">
+         <Option output="/home/slc/work/MecTcp/bin/tcpServer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/slc/work/MecTcp/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/slc/work/MecTcp" />
+            <Add directory="/home/slc/work/MecTcp/include" />
+            <Add directory="/home/slc/work/MecTcp/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/tcpServer/Makefile&quot;  VERBOSE=1 tcpServer/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/tcpServer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/tcpServer/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/tcpServer/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tcpClient">
+         <Option output="/home/slc/work/MecTcp/bin/tcpClient" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/slc/work/MecTcp/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/slc/work/MecTcp" />
+            <Add directory="/home/slc/work/MecTcp/include" />
+            <Add directory="/home/slc/work/MecTcp/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/tcpClient/Makefile&quot;  VERBOSE=1 tcpClient" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/tcpClient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/tcpClient/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/tcpClient/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="tcpClient/fast">
+         <Option output="/home/slc/work/MecTcp/bin/tcpClient" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/slc/work/MecTcp/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/slc/work/MecTcp" />
+            <Add directory="/home/slc/work/MecTcp/include" />
+            <Add directory="/home/slc/work/MecTcp/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/tcpClient/Makefile&quot;  VERBOSE=1 tcpClient/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/tcpClient/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/tcpClient/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/tcpClient/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="send">
+         <Option output="/home/slc/work/MecTcp/bin/send" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/slc/work/MecTcp/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/slc/work/MecTcp" />
+            <Add directory="/home/slc/work/MecTcp/include" />
+            <Add directory="/home/slc/work/MecTcp/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/send/Makefile&quot;  VERBOSE=1 send" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/send/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/send/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/send/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="send/fast">
+         <Option output="/home/slc/work/MecTcp/bin/send" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/slc/work/MecTcp/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/slc/work/MecTcp" />
+            <Add directory="/home/slc/work/MecTcp/include" />
+            <Add directory="/home/slc/work/MecTcp/src" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/send/Makefile&quot;  VERBOSE=1 send/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/send/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/send/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/slc/work/MecTcp/build/src/send/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/AsyncLogging.cc">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/AsyncLogging.h">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/Condition.cc">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/Condition.h">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/CountDownLatch.cc">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/CountDownLatch.h">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/CurrentThread.cc">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/CurrentThread.h">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/Date.cc">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/Date.h">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/Exception.cc">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/Exception.h">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/FileUtil.cc">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/FileUtil.h">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/LogFile.cc">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/LogFile.h">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/LogStream.cc">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/LogStream.h">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/Logging.cc">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/Logging.h">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/ProcessInfo.cc">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/ProcessInfo.h">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/Thread.cc">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/Thread.h">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/ThreadPool.cc">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/ThreadPool.h">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/TimeZone.cc">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/TimeZone.h">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/Timestamp.cc">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/Timestamp.h">
+         <Option target="muduo_base"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/Acceptor.cc">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/Acceptor.h">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/Buffer.cc">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/Buffer.h">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/Channel.cc">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/Channel.h">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/Connector.cc">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/Connector.h">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/EventLoop.cc">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/EventLoop.h">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/EventLoopThread.cc">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/EventLoopThread.h">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/EventLoopThreadPool.cc">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/EventLoopThreadPool.h">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/InetAddress.cc">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/InetAddress.h">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/Poller.cc">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/Poller.h">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/Socket.cc">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/Socket.h">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/SocketsOps.cc">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/SocketsOps.h">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/TcpClient.cc">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/TcpClient.h">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/TcpConnection.cc">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/TcpConnection.h">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/TcpServer.cc">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/TcpServer.h">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/Timer.cc">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/Timer.h">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/TimerQueue.cc">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/TimerQueue.h">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/poller/DefaultPoller.cc">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/poller/EPollPoller.cc">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/poller/EPollPoller.h">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/poller/PollPoller.cc">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/poller/PollPoller.h">
+         <Option target="muduo_net"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/send/main.cpp">
+         <Option target="send"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/tcpClient/AutoParking.cpp">
+         <Option target="tcpClient"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/tcpClient/AutoParking.h">
+         <Option target="tcpClient"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/tcpClient/Client.cpp">
+         <Option target="tcpClient"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/tcpClient/Client.h">
+         <Option target="tcpClient"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/tcpClient/main.cpp">
+         <Option target="tcpClient"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/tcpServer/main.cpp">
+         <Option target="tcpServer"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/tcpServer/server.cpp">
+         <Option target="tcpServer"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/tcpServer/server.h">
+         <Option target="tcpServer"/>
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/base/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\muduo\base\" />
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/muduo/net/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\muduo\net\" />
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/tcpServer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\tcpServer\" />
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/tcpClient/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\tcpClient\" />
+      </Unit>
+      <Unit filename="/home/slc/work/MecTcp/src/send/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\send\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

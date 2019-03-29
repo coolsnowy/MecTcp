@@ -1,0 +1,1 @@
+/usr/bin/g++      CMakeFiles/send.dir/main.cpp.o  -o ../../../bin/send  -L/home/slc/work/MecTcp/lib/x86 -rdynamic ../muduo/net/libmuduo_net.a ../muduo/base/libmuduo_base.a -ljson_linux-gcc-5.4.0_libmt -lpthread -llcm -lrt -Wl,-rpath,/home/slc/work/MecTcp/lib/x86 

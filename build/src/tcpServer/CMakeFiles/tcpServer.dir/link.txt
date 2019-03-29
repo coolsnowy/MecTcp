@@ -1,0 +1,1 @@
+/usr/bin/g++      CMakeFiles/tcpServer.dir/server.cpp.o CMakeFiles/tcpServer.dir/main.cpp.o  -o ../../../bin/tcpServer  -L/home/slc/work/MecTcp/lib/x86 -rdynamic ../muduo/net/libmuduo_net.a ../muduo/base/libmuduo_base.a -ljson_linux-gcc-5.4.0_libmt -lpthread -lrt -Wl,-rpath,/home/slc/work/MecTcp/lib/x86 
